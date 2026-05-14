@@ -8,7 +8,7 @@
     <script type="module" crossorigin src="/goit-js-hw-10/index.js"></script>
     <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbSUbo7J.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-C1gPI-5C.css">
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/index-zJVrFarg.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/index-D-SbhQzh.css">
   </head>
   <body>
     <main>
@@ -35,7 +35,30 @@
   </div>
 </div>
 
-      
+
+      <div class="snackbar">
+        <form class="form">
+  <label>
+    Delay (ms)
+    <input type="number" name="delay" required />
+  </label>
+
+  <fieldset>
+    <legend>State</legend>
+    <label>
+      <input type="radio" name="state" value="fulfilled" required />
+      Fulfilled
+    </label>
+    <label>
+      <input type="radio" name="state" value="rejected" required />
+      Rejected
+    </label>
+  </fieldset>
+
+  <button type="submit">Create notification</button>
+</form>
+
+      </div>
     </main>
 
   </body>
