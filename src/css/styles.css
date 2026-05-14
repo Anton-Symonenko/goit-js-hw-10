@@ -11,6 +11,14 @@
 @import url('./animations.css');
 
 /* Sections style */
+
+
+.snackbar {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
 .timer {
   display: flex;
   gap: 24px;
